@@ -18,6 +18,12 @@
         <h1>Reproduzindo Áudio</h1>
         <p>Reproduzindo audio em HTML</p>
         <audio src="country.mp3" controls ></audio> <br>
-        <audio src="country2.mp3" controls ></audio>
+
+        <!-- Outra maneira de inserir aúdio -->
+        <audio preload="metadata" controls loop>
+            <source src="country2.mp3" type="audio/mpeg">
+        </audio>
+
+        <!-- No atributo preload é importante utilizar o "metadata", pois assim ele só carrega o aúdio quando o usuário clicar no play, fazendo com que o carregamento do site fique mais rápido. O padrão é o "auto" que ja carrega o site de uma vez junto com o áudio, mas fazendo com que fique mais demorado para o usuário acessar o site  -->
 </body>
 </html>
