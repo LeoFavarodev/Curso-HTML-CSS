@@ -7,16 +7,10 @@
     font-style: normal;
 }
 
-/* 
-    Cores 
-    Verde escuro: #1A5C37
-    Verde médio: #2A965A
-    Verde claro #3BD47F
- */
-
 body{
     margin: auto;
     background-color: #84E1AD;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
@@ -27,7 +21,7 @@ header{
 
 h1{
     text-align: center;
-    font-family: 'idroid', sans-serif;
+    font-family: 'idroid', Arial, sans-serif;
     color: white;
     font-weight: bold;
     text-shadow: 6px 3px 6px rgba(0, 0, 0, 0.400)
@@ -38,7 +32,6 @@ h1{
     display: block;
     margin: auto;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     text-shadow: 6px 3px 6px rgba(0, 0, 0, 0.400);
 }
@@ -54,11 +47,10 @@ nav > a{
     text-decoration: none;
     font-weight: bold;
     margin-left: 15px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 h2{
-    font-family: 'idroid', sans-serif;
+    font-family: 'idroid', Arial, sans-serif;
     color:  #1A5C37;
     text-align: left;
 }
@@ -72,14 +64,16 @@ main{
     padding-left: 20px;
     padding-right: 20px;
     text-align: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 p{
     text-align: justify;
     text-indent: 35px;
-    font-family: Arial, Helvetica, sans-serif;
     line-height: 30px;
-    
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #introducao{
@@ -92,18 +86,18 @@ h3{
     background-image: linear-gradient(to right, #dbf3e6, white);
     text-align: left;
     font-size: 1.5em;
-    font-family: 'idroid', sans-serif;
+    font-family: 'idroid', Arial, sans-serif;
     color:  #1A5C37;
     padding-left: 10px;
 }
 
-#links_texto{
+.links_texto{
     color: #1A5C37;
     text-decoration: none;
     font-weight: bold;
 }
 
-#lins_texto:hover{
+.links_texto:hover{
     color: white;
     background: #1A5C37;
 }
@@ -117,9 +111,7 @@ footer > p{
     background-color: #84E1AD;
     margin-top: 0;
     margin-bottom: 0;
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-bottom: 15px;
+    padding: 15px;
 }
 
 h4{
@@ -127,13 +119,13 @@ h4{
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #2FA866;
-    padding: 10px;
+    padding: 15px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     margin-bottom: 0;
 }
 
-span{
+.decora_plv{
     color: #1A5C37;
     font-weight: bold;
     text-shadow: 3px 2px 7px rgba(0, 0, 0, 0.396)
@@ -143,8 +135,25 @@ footer > ul{
     margin-top: 0;
     text-align: left;
     background-color: #84E1AD;
+    margin-bottom: 0;
 }
+
+
 
 li{
     list-style-image: url('imagens/Ok.ico');
+}
+
+.android_version{
+    text-decoration: underline;
+}
+
+#prg_footer{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-top: 0;
+}
+
+#ult_prg{
+    padding-bottom: 20px;
 }
