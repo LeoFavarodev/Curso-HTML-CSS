@@ -1,4 +1,4 @@
-# Curso-Guanabara-Html-CSS
+# Curso-Html-CSS
  
 Bem vindo ao meu repositório sobre um curso de HTML-CSS que estou fazendo. <br>
 Iniciei como um repositório privado, mas decidi deixar público para que assim, quem se interessar, veja a evolução do meu aprendizado
